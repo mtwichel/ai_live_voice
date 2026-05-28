@@ -47,6 +47,15 @@ Optional model override:
 flutter run --dart-define=GEMINI_API_KEY=... --dart-define=GEMINI_LIVE_MODEL=gemini-2.0-flash-live-preview-04-09
 ```
 
+## Example app
+
+A minimal evaluator app lives in [`example/`](example/README.md):
+
+```bash
+cd example
+flutter run --dart-define=GEMINI_API_KEY=your_key
+```
+
 ## Tool calling
 
 Define tools with types from `gemini_tools.dart` (Gemini-specific in v1). Implement [VoiceToolCallHandler] and pass it to [AILiveVoiceClient] when `liveTools` is non-empty.

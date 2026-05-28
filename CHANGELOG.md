@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- `example/` app for evaluators: minimal voice loop with `GEMINI_API_KEY` via `--dart-define`.
+
 ## 0.0.1-dev.1
 
 ### Added

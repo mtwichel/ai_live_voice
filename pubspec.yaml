@@ -1,6 +1,6 @@
 name: ai_live_voice
 description: Flutter package for real-time AI voice conversations via Gemini Live (mic, speaker, barge-in).
-version: 0.0.1-dev.1
+version: 1.0.0+-dev.1
 
 repository: https://github.com/mtwichel/ai_live_voice
 issue_tracker: https://github.com/mtwichel/ai_live_voice/issues

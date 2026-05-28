@@ -1,3 +1,6 @@
+# Project docs (local brainstorming, notes)
+docs/
+
 # Miscellaneous
 *.class
 *.log
@@ -19,6 +22,7 @@ migrate_working_dir/
 .idea/
 
 # Flutter/Dart/Pub related
+/pubspec.lock
 **/doc/api/
 .dart_tool/
 .flutter-plugins

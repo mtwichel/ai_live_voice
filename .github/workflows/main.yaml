@@ -25,7 +25,7 @@ jobs:
   build:
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
     with:
-      runs_on: macos-latest
+      runs_on: ubuntu-latest
       flutter_channel: stable
       flutter_version: "3.41.x"
       run_bloc_lint: false

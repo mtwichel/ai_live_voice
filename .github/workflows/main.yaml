@@ -30,11 +30,7 @@ jobs:
       flutter_version: "3.41.x"
       run_bloc_lint: false
       min_coverage: 10
-      coverage_excludes: |
-        lib/src/providers/gemini/**
-        lib/src/voice_session.dart
-        lib/src/audio/mic_capture.dart
-        lib/src/audio/speaker_playback.dart
+      coverage_excludes: 'lib/src/providers/gemini/** lib/src/voice_session.dart lib/src/audio/mic_capture.dart lib/src/audio/speaker_playback.dart'
 
   pana:
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/pana.yml@v1

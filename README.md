@@ -1,5 +1,8 @@
 # ai_live_voice
 
+[![ci](https://github.com/mtwichel/ai_live_voice/actions/workflows/main.yaml/badge.svg)](https://github.com/mtwichel/ai_live_voice/actions/workflows/main.yaml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Flutter package for real-time **AI voice** conversations using the **Gemini Live** API: microphone capture, speaker playback, voice barge-in, and optional tool calling.
 
 ## Supported platforms (v1)
